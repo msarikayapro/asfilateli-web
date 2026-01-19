@@ -1,0 +1,39 @@
+/* CART PAGE CSS */
+.cart-section { padding: var(--spacing-2xl) 0; min-height: 70vh; }
+.page-title { font-family: var(--font-display); font-size: 2rem; margin-bottom: var(--spacing-xl); }
+.item-count { color: var(--gray-600); font-size: 1.25rem; font-weight: 400; }
+.cart-layout { display: grid; grid-template-columns: 1fr 400px; gap: var(--spacing-2xl); }
+.cart-items { display: flex; flex-direction: column; gap: var(--spacing-lg); }
+.cart-item { display: grid; grid-template-columns: 120px 1fr auto auto auto auto; gap: var(--spacing-lg); padding: var(--spacing-lg); background: var(--white); border: 1px solid var(--gray-200); border-radius: var(--radius-xl); align-items: center; position: relative; transition: all var(--transition-fast); }
+.cart-item:hover { box-shadow: var(--shadow-md); border-color: var(--primary); }
+.item-image { border-radius: var(--radius-lg); overflow: hidden; background: var(--gray-50); }
+.item-info { display: flex; flex-direction: column; gap: var(--spacing-sm); }
+.item-title a { font-size: 1.125rem; font-weight: 600; color: var(--gray-900); transition: color var(--transition-fast); }
+.item-title a:hover { color: var(--primary); }
+.item-meta { display: flex; flex-direction: column; gap: 4px; font-size: 0.875rem; color: var(--gray-600); }
+.item-stock { display: flex; align-items: center; gap: var(--spacing-xs); font-size: 0.875rem; color: var(--accent-green); font-weight: 500; }
+.item-price, .item-quantity, .item-total { text-align: center; }
+.price-label { font-size: 0.75rem; color: var(--gray-600); margin-bottom: 4px; text-transform: uppercase; letter-spacing: 0.5px; }
+.price-amount, .total-amount { font-family: var(--font-display); font-size: 1.25rem; font-weight: 700; color: var(--primary); }
+.quantity-display { font-size: 1.125rem; font-weight: 700; color: var(--gray-900); }
+.quantity-note { font-size: 0.75rem; color: var(--gray-500); margin-top: 4px; }
+.item-remove { position: absolute; top: var(--spacing-md); right: var(--spacing-md); width: 32px; height: 32px; border-radius: var(--radius-full); background: var(--gray-100); color: var(--gray-600); transition: all var(--transition-fast); }
+.item-remove:hover { background: var(--accent-red); color: var(--white); transform: rotate(90deg); }
+.cart-actions { padding: var(--spacing-lg); }
+.cart-summary { position: sticky; top: 100px; align-self: start; background: var(--gray-50); border: 1px solid var(--gray-200); border-radius: var(--radius-xl); padding: var(--spacing-xl); }
+.summary-title { font-family: var(--font-display); font-size: 1.5rem; font-weight: 600; margin-bottom: var(--spacing-lg); }
+.summary-row { display: flex; justify-content: space-between; align-items: center; padding: var(--spacing-md) 0; font-size: 1rem; }
+.summary-row.shipping { color: var(--accent-green); }
+.summary-row.shipping svg { color: var(--accent-green); }
+.summary-row .free { color: var(--accent-green); }
+.summary-divider { height: 1px; background: var(--gray-300); margin: var(--spacing-md) 0; }
+.summary-row.total { padding: var(--spacing-lg) 0; font-size: 1.25rem; }
+.summary-row.total strong { font-family: var(--font-display); font-size: 1.75rem; color: var(--primary); }
+.trust-info { margin-top: var(--spacing-xl); display: flex; flex-direction: column; gap: var(--spacing-md); }
+.trust-item-small { display: flex; align-items: center; gap: var(--spacing-sm); font-size: 0.875rem; color: var(--gray-700); }
+.empty-cart { padding: var(--spacing-3xl) 0; min-height: 60vh; display: flex; align-items: center; }
+.empty-cart-content { text-align: center; max-width: 500px; margin: 0 auto; }
+.empty-cart-content svg { margin: 0 auto var(--spacing-xl); }
+.empty-cart-content h2 { font-family: var(--font-display); font-size: 2rem; margin-bottom: var(--spacing-md); }
+.empty-cart-content p { color: var(--gray-600); margin-bottom: var(--spacing-xl); }
+@media (max-width: 1024px) { .cart-layout { grid-template-columns: 1fr; } .cart-summary { position: relative; top: 0; } .cart-item { grid-template-columns: 100px 1fr; gap: var(--spacing-md); } .item-price, .item-quantity, .item-total { display: none; } }
