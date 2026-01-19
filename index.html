@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asfilateli - Türkiye'nin En Büyük Koleksiyon Pul Platformu</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header / Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <div class="nav-brand">
+                <div class="logo">
+                    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="36" height="36" rx="3" stroke="#1E3A5F" stroke-width="2"/>
+                        <path d="M8 8 L32 8 L32 20 L8 20 Z" fill="#D4AF37" opacity="0.3"/>
+                        <circle cx="20" cy="14" r="4" fill="#1E3A5F"/>
+                        <text x="20" y="32" font-size="10" text-anchor="middle" fill="#1E3A5F" font-family="serif">1972</text>
+                    </svg>
+                    <span class="logo-text">Asfilateli</span>
+                </div>
+            </div>
+            
+            <ul class="nav-menu">
+                <li><a href="#" class="nav-link active">Ana Sayfa</a></li>
+                <li><a href="catalog.html" class="nav-link">Katalog</a></li>
+                <li><a href="auctions.html" class="nav-link">Mezatlar</a></li>
+                <li><a href="#" class="nav-link">Hakkımızda</a></li>
+                <li><a href="#" class="nav-link">İletişim</a></li>
+            </ul>
+            
+            <div class="nav-actions">
+                <button class="btn-icon" aria-label="Ara">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="9" cy="9" r="6" stroke="currentColor" stroke-width="2"/>
+                        <path d="M14 14L18 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </button>
+                <a href="login.html" class="btn-icon" aria-label="Hesabım">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <circle cx="10" cy="7" r="4" stroke="currentColor" stroke-width="2"/>
+                        <path d="M3 18C3 14 6 12 10 12C14 12 17 14 17 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                    </svg>
+                </a>
+                <a href="cart.html" class="btn-icon cart-btn" aria-label="Sepet">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M1 1H3L5 13H16L19 4H5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="6" cy="17" r="1" fill="currentColor"/>
+                        <circle cx="15" cy="17" r="1" fill="currentColor"/>
+                    </svg>
+                    <span class="cart-badge">3</span>
+                </a>
+            </div>
+            
+            <button class="mobile-menu-toggle" aria-label="Menü">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-bg">
+            <div class="hero-pattern"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <span class="hero-badge">Türkiye'nin En Güvenilir Platformu</span>
+                <h1 class="hero-title">
+                    Değerli Koleksiyonunuzu<br>
+                    <span class="gradient-text">Bir Adım Öteye</span> Taşıyın
+                </h1>
+                <p class="hero-description">
+                    Binlerce nadir pul, güvenli alışveriş ve uzman desteği ile koleksiyonunuzu zenginleştirin.
+                    Türkiye'nin en büyük filateli topluluğuna katılın.
+                </p>
+                <div class="hero-actions">
+                    <a href="catalog.html" class="btn btn-primary btn-lg">
+                        Kataloğu Keşfet
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                            <path d="M7 3L14 10L7 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </a>
+                    <a href="#featured" class="btn btn-secondary btn-lg">Öne Çıkanlar</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">2,450+</div>
+                        <div class="stat-label">Nadir Pul</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">850+</div>
+                        <div class="stat-label">Mutlu Koleksiyoner</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">%100</div>
+                        <div class="stat-label">Güvenli Alışveriş</div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="stamp-showcase">
+                    <div class="stamp-card featured">
+                        <div class="stamp-img">
+                            <div class="stamp-placeholder">
+                                <svg width="100%" height="100%" viewBox="0 0 200 280" fill="none">
+                                    <rect width="200" height="280" fill="#f8f9fa"/>
+                                    <rect x="10" y="10" width="180" height="220" rx="5" fill="white" stroke="#1E3A5F" stroke-width="2"/>
+                                    <circle cx="100" cy="100" r="40" fill="#D4AF37" opacity="0.3"/>
+                                    <text x="100" y="180" font-size="16" text-anchor="middle" fill="#1E3A5F" font-family="serif">TÜRKİYE</text>
+                                    <text x="100" y="200" font-size="20" font-weight="bold" text-anchor="middle" fill="#1E3A5F" font-family="serif">1972</text>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="stamp-badge">Öne Çıkan</div>
+                    </div>
+                    <div class="stamp-card secondary">
+                        <div class="stamp-img small">
+                            <div class="stamp-placeholder small">
+                                <svg width="100%" height="100%" viewBox="0 0 150 200" fill="none">
+                                    <rect width="150" height="200" fill="#f8f9fa"/>
+                                    <rect x="8" y="8" width="134" height="164" rx="4" fill="white" stroke="#1E3A5F" stroke-width="1.5"/>
+                                    <circle cx="75" cy="80" r="30" fill="#8B4513" opacity="0.3"/>
+                                    <text x="75" y="140" font-size="12" text-anchor="middle" fill="#1E3A5F" font-family="serif">ALMANYA</text>
+                                    <text x="75" y="160" font-size="14" font-weight="bold" text-anchor="middle" fill="#1E3A5F" font-family="serif">1965</text>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stamp-card tertiary">
+                        <div class="stamp-img small">
+                            <div class="stamp-placeholder small">
+                                <svg width="100%" height="100%" viewBox="0 0 150 200" fill="none">
+                                    <rect width="150" height="200" fill="#f8f9fa"/>
+                                    <rect x="8" y="8" width="134" height="164" rx="4" fill="white" stroke="#1E3A5F" stroke-width="1.5"/>
+                                    <circle cx="75" cy="80" r="30" fill="#1E40AF" opacity="0.3"/>
+                                    <text x="75" y="140" font-size="12" text-anchor="middle" fill="#1E3A5F" font-family="serif">FRANSA</text>
+                                    <text x="75" y="160" font-size="14" font-weight="bold" text-anchor="middle" fill="#1E3A5F" font-family="serif">1980</text>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products -->
+    <section id="featured" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Öne Çıkan Koleksiyonlar</h2>
+                <p class="section-subtitle">Koleksiyonerler için özenle seçilmiş nadir pullar</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product Card 1 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge hot">Çok Satan</div>
+                        <div class="stamp-placeholder product">
+                            <svg width="100%" height="100%" viewBox="0 0 300 400" fill="none">
+                                <rect width="300" height="400" fill="#f8f9fa"/>
+                                <rect x="15" y="15" width="270" height="340" rx="8" fill="white" stroke="#1E3A5F" stroke-width="3"/>
+                                <circle cx="150" cy="150" r="60" fill="#D4AF37" opacity="0.3"/>
+                                <text x="150" y="280" font-size="24" text-anchor="middle" fill="#1E3A5F" font-family="serif" font-weight="bold">TÜRKİYE</text>
+                                <text x="150" y="320" font-size="32" font-weight="bold" text-anchor="middle" fill="#1E3A5F" font-family="serif">1972</text>
+                            </svg>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-icon-round" title="Favorilere Ekle">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 17L3 10L4 4L10 2L16 4L17 10L10 17Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="btn-icon-round" title="Hızlı Görünüm">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <circle cx="10" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M1 10C1 10 4 4 10 4C16 4 19 10 19 10C19 10 16 16 10 16C4 16 1 10 1 10Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-meta">
+                            <span class="product-country">🇹🇷 Türkiye</span>
+                            <span class="product-year">1972</span>
+                        </div>
+                        <h3 class="product-title">Osmanlı Serisi Koleksiyon Pulu</h3>
+                        <div class="product-rating">
+                            <div class="stars">★★★★★</div>
+                            <span class="rating-count">(23)</span>
+                        </div>
+                        <div class="product-details">
+                            <span class="detail-item">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                MNH
+                            </span>
+                            <span class="detail-item">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M2 8L6 12L14 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                Sertifikalı
+                            </span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price">150₺</span>
+                                <span class="stock-badge in-stock">Stokta</span>
+                            </div>
+                            <div class="product-buttons">
+                                <button class="btn btn-primary btn-sm">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1 1H3L4 10H13L15 3H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="5" cy="14" r="1" fill="currentColor"/>
+                                        <circle cx="12" cy="14" r="1" fill="currentColor"/>
+                                    </svg>
+                                    Sepete
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge new">Yeni</div>
+                        <div class="stamp-placeholder product">
+                            <svg width="100%" height="100%" viewBox="0 0 300 400" fill="none">
+                                <rect width="300" height="400" fill="#f8f9fa"/>
+                                <rect x="15" y="15" width="270" height="340" rx="8" fill="white" stroke="#8B4513" stroke-width="3"/>
+                                <circle cx="150" cy="150" r="60" fill="#8B4513" opacity="0.3"/>
+                                <text x="150" y="280" font-size="22" text-anchor="middle" fill="#8B4513" font-family="serif" font-weight="bold">ALMANYA</text>
+                                <text x="150" y="320" font-size="32" font-weight="bold" text-anchor="middle" fill="#8B4513" font-family="serif">1965</text>
+                            </svg>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-icon-round">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 17L3 10L4 4L10 2L16 4L17 10L10 17Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="btn-icon-round">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <circle cx="10" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M1 10C1 10 4 4 10 4C16 4 19 10 19 10C19 10 16 16 10 16C4 16 1 10 1 10Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-meta">
+                            <span class="product-country">🇩🇪 Almanya</span>
+                            <span class="product-year">1965</span>
+                        </div>
+                        <h3 class="product-title">Kültür Serisi Nadir Set</h3>
+                        <div class="product-rating">
+                            <div class="stars">★★★★☆</div>
+                            <span class="rating-count">(12)</span>
+                        </div>
+                        <div class="product-details">
+                            <span class="detail-item">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                VF
+                            </span>
+                            <span class="detail-item">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 2L10 6L14 7L11 10L12 14L8 12L4 14L5 10L2 7L6 6L8 2Z" fill="currentColor"/>
+                                </svg>
+                                Nadir
+                            </span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price">280₺</span>
+                                <span class="stock-badge in-stock">Stokta</span>
+                            </div>
+                            <div class="product-buttons">
+                                <button class="btn btn-primary btn-sm">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1 1H3L4 10H13L15 3H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="5" cy="14" r="1" fill="currentColor"/>
+                                        <circle cx="12" cy="14" r="1" fill="currentColor"/>
+                                    </svg>
+                                    Sepete
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge rare">Nadir</div>
+                        <div class="stamp-placeholder product">
+                            <svg width="100%" height="100%" viewBox="0 0 300 400" fill="none">
+                                <rect width="300" height="400" fill="#f8f9fa"/>
+                                <rect x="15" y="15" width="270" height="340" rx="8" fill="white" stroke="#1E40AF" stroke-width="3"/>
+                                <circle cx="150" cy="150" r="60" fill="#1E40AF" opacity="0.3"/>
+                                <text x="150" y="280" font-size="24" text-anchor="middle" fill="#1E40AF" font-family="serif" font-weight="bold">FRANSA</text>
+                                <text x="150" y="320" font-size="32" font-weight="bold" text-anchor="middle" fill="#1E40AF" font-family="serif">1980</text>
+                            </svg>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-icon-round">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 17L3 10L4 4L10 2L16 4L17 10L10 17Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="btn-icon-round">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <circle cx="10" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M1 10C1 10 4 4 10 4C16 4 19 10 19 10C19 10 16 16 10 16C4 16 1 10 1 10Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-meta">
+                            <span class="product-country">🇫🇷 Fransa</span>
+                            <span class="product-year">1980</span>
+                        </div>
+                        <h3 class="product-title">Spor Teması Koleksiyon</h3>
+                        <div class="product-rating">
+                            <div class="stars">★★★★★</div>
+                            <span class="rating-count">(8)</span>
+                        </div>
+                        <div class="product-details">
+                            <span class="detail-item">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                Used
+                            </span>
+                            <span class="detail-item">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M2 8L6 12L14 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                                İyi Durum
+                            </span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price">320₺</span>
+                                <span class="stock-badge in-stock">Stokta</span>
+                            </div>
+                            <div class="product-buttons">
+                                <button class="btn btn-primary btn-sm">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1 1H3L4 10H13L15 3H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="5" cy="14" r="1" fill="currentColor"/>
+                                        <circle cx="12" cy="14" r="1" fill="currentColor"/>
+                                    </svg>
+                                    Sepete
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="product-card">
+                    <div class="product-image">
+                        <div class="product-badge limited">Sınırlı</div>
+                        <div class="stamp-placeholder product">
+                            <svg width="100%" height="100%" viewBox="0 0 300 400" fill="none">
+                                <rect width="300" height="400" fill="#f8f9fa"/>
+                                <rect x="15" y="15" width="270" height="340" rx="8" fill="white" stroke="#DC2626" stroke-width="3"/>
+                                <circle cx="150" cy="150" r="60" fill="#DC2626" opacity="0.3"/>
+                                <text x="150" y="280" font-size="22" text-anchor="middle" fill="#DC2626" font-family="serif" font-weight="bold">İNGİLTERE</text>
+                                <text x="150" y="320" font-size="32" font-weight="bold" text-anchor="middle" fill="#DC2626" font-family="serif">1990</text>
+                            </svg>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn-icon-round">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <path d="M10 17L3 10L4 4L10 2L16 4L17 10L10 17Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+                                </svg>
+                            </button>
+                            <button class="btn-icon-round">
+                                <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                    <circle cx="10" cy="10" r="3" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M1 10C1 10 4 4 10 4C16 4 19 10 19 10C19 10 16 16 10 16C4 16 1 10 1 10Z" stroke="currentColor" stroke-width="2"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <div class="product-meta">
+                            <span class="product-country">🇬🇧 İngiltere</span>
+                            <span class="product-year">1990</span>
+                        </div>
+                        <h3 class="product-title">Kraliyet Serisi Özel Baskı</h3>
+                        <div class="product-rating">
+                            <div class="stars">★★★★★</div>
+                            <span class="rating-count">(15)</span>
+                        </div>
+                        <div class="product-details">
+                            <span class="detail-item">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <circle cx="8" cy="8" r="6" stroke="currentColor" stroke-width="1.5"/>
+                                    <path d="M8 4V8L11 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+                                </svg>
+                                MNH
+                            </span>
+                            <span class="detail-item">
+                                <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                    <path d="M8 2L10 6L14 7L11 10L12 14L8 12L4 14L5 10L2 7L6 6L8 2Z" fill="currentColor"/>
+                                </svg>
+                                Özel
+                            </span>
+                        </div>
+                        <div class="product-footer">
+                            <div class="product-price">
+                                <span class="price">450₺</span>
+                                <span class="stock-badge in-stock">Stokta</span>
+                            </div>
+                            <div class="product-buttons">
+                                <button class="btn btn-primary btn-sm">
+                                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                        <path d="M1 1H3L4 10H13L15 3H4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        <circle cx="5" cy="14" r="1" fill="currentColor"/>
+                                        <circle cx="12" cy="14" r="1" fill="currentColor"/>
+                                    </svg>
+                                    Sepete
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-footer">
+                <a href="catalog.html" class="btn btn-outline btn-lg">
+                    Tüm Koleksiyonu İncele
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M7 3L14 10L7 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Active Auctions -->
+    <section class="section section-dark">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">🔨 Aktif Mezatlar</h2>
+                <p class="section-subtitle">Nadir kolleksiyonlar için son dakika teklifleri</p>
+            </div>
+
+            <div class="auction-grid">
+                <!-- Auction Card 1 -->
+                <div class="auction-card">
+                    <div class="auction-image">
+                        <div class="auction-badge live">🔴 Canlı</div>
+                        <div class="stamp-placeholder auction">
+                            <svg width="100%" height="100%" viewBox="0 0 350 450" fill="none">
+                                <rect width="350" height="450" fill="#f8f9fa"/>
+                                <rect x="20" y="20" width="310" height="390" rx="10" fill="white" stroke="#8B4513" stroke-width="4"/>
+                                <circle cx="175" cy="180" r="80" fill="#8B4513" opacity="0.3"/>
+                                <text x="175" y="330" font-size="28" text-anchor="middle" fill="#8B4513" font-family="serif" font-weight="bold">ALMANYA</text>
+                                <text x="175" y="380" font-size="40" font-weight="bold" text-anchor="middle" fill="#8B4513" font-family="serif">1945</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="auction-info">
+                        <h3 class="auction-title">Almanya 1945 Nadir Set</h3>
+                        <div class="auction-meta">
+                            <span>🇩🇪 Almanya</span>
+                            <span>VF Kondisyon</span>
+                        </div>
+                        <div class="auction-current">
+                            <div class="auction-label">Mevcut Teklif</div>
+                            <div class="auction-price">1,200₺</div>
+                            <div class="auction-bids">12 teklif</div>
+                        </div>
+                        <div class="auction-timer">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <span class="timer-text">2 saat 34 dk kaldı</span>
+                        </div>
+                        <button class="btn btn-auction btn-lg w-full">
+                            🔨 Pey Ver
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Auction Card 2 -->
+                <div class="auction-card">
+                    <div class="auction-image">
+                        <div class="auction-badge live">🔴 Canlı</div>
+                        <div class="stamp-placeholder auction">
+                            <svg width="100%" height="100%" viewBox="0 0 350 450" fill="none">
+                                <rect width="350" height="450" fill="#f8f9fa"/>
+                                <rect x="20" y="20" width="310" height="390" rx="10" fill="white" stroke="#1E40AF" stroke-width="4"/>
+                                <circle cx="175" cy="180" r="80" fill="#1E40AF" opacity="0.3"/>
+                                <text x="175" y="330" font-size="28" text-anchor="middle" fill="#1E40AF" font-family="serif" font-weight="bold">FRANSA</text>
+                                <text x="175" y="380" font-size="40" font-weight="bold" text-anchor="middle" fill="#1E40AF" font-family="serif">1960</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="auction-info">
+                        <h3 class="auction-title">Fransa 1960 Koleksiyon</h3>
+                        <div class="auction-meta">
+                            <span>🇫🇷 Fransa</span>
+                            <span>MNH</span>
+                        </div>
+                        <div class="auction-current">
+                            <div class="auction-label">Mevcut Teklif</div>
+                            <div class="auction-price">890₺</div>
+                            <div class="auction-bids">8 teklif</div>
+                        </div>
+                        <div class="auction-timer">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
+                                <circle cx="10" cy="10" r="8" stroke="currentColor" stroke-width="2"/>
+                                <path d="M10 5V10L13 13" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                            </svg>
+                            <span class="timer-text">5 saat 12 dk kaldı</span>
+                        </div>
+                        <button class="btn btn-auction btn-lg w-full">
+                            🔨 Pey Ver
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Auction Card 3 -->
+                <div class="auction-card">
+                    <div class="auction-image">
+                        <div class="auction-badge upcoming">📅 Yakında</div>
+                        <div class="stamp-placeholder auction">
+                            <svg width="100%" height="100%" viewBox="0 0 350 450" fill="none">
+                                <rect width="350" height="450" fill="#f8f9fa"/>
+                                <rect x="20" y="20" width="310" height="390" rx="10" fill="white" stroke="#DC2626" stroke-width="4"/>
+                                <circle cx="175" cy="180" r="80" fill="#DC2626" opacity="0.3"/>
+                                <text x="175" y="330" font-size="26" text-anchor="middle" fill="#DC2626" font-family="serif" font-weight="bold">İNGİLTERE</text>
+                                <text x="175" y="380" font-size="40" font-weight="bold" text-anchor="middle" fill="#DC2626" font-family="serif">1890</text>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="auction-info">
+                        <h3 class="auction-title">İngiltere 1890 Victoria</h3>
+                        <div class="auction-meta">
+                            <span>🇬🇧 İngiltere</span>
+                            <span>VF</span>
+                        </div>
+                        <div class="auction-current upcoming">
+                            <div class="auction-label">Başlangıç Fiyatı</div>
+                            <div class="auction-price">1,500₺</div>
+                            <div class="auction-start">25 Ocak'ta başlıyor</div>
+                        </div>
+                        <button class="btn btn-outline btn-lg w-full">
+                            🔔 Hatırlat
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-footer">
+                <a href="auctions.html" class="btn btn-secondary btn-lg">
+                    Tüm Mezatları Gör
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="section">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="20" r="18" stroke="#D4AF37" stroke-width="2"/>
+                            <path d="M15 20L18 23L25 16" stroke="#D4AF37" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">%100 Güvenli Alışveriş</h3>
+                    <p class="feature-description">Tüm ürünlerimiz orijinallik sertifikalı ve dekont kontrolü ile güvence altında.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <rect x="5" y="10" width="30" height="25" rx="3" stroke="#D4AF37" stroke-width="2"/>
+                            <path d="M5 16H35" stroke="#D4AF37" stroke-width="2"/>
+                            <circle cx="12" cy="25" r="2" fill="#D4AF37"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Ücretsiz Kargo</h3>
+                    <p class="feature-description">Türkiye geneli tüm siparişlerinizde kargo bizden.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <circle cx="20" cy="15" r="6" stroke="#D4AF37" stroke-width="2"/>
+                            <path d="M10 35C10 28 14 25 20 25C26 25 30 28 30 35" stroke="#D4AF37" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Uzman Desteği</h3>
+                    <p class="feature-description">Deneyimli filateli uzmanlarımız her zaman yanınızda.</p>
+                </div>
+
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <svg width="40" height="40" viewBox="0 0 40 40" fill="none">
+                            <path d="M20 5L25 15L35 16L27 24L29 35L20 30L11 35L13 24L5 16L15 15L20 5Z" stroke="#D4AF37" stroke-width="2" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3 class="feature-title">Nadir Koleksiyonlar</h3>
+                    <p class="feature-description">Dünya çapında nadir ve değerli pul koleksiyonları.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Koleksiyonunuzu Büyütmeye Hazır mısınız?</h2>
+                <p class="cta-description">Hemen üye olun, özel fırsatlardan ve yeni ürün duyurularından ilk siz haberdar olun.</p>
+                <div class="cta-actions">
+                    <a href="register.html" class="btn btn-primary btn-lg">Ücretsiz Üye Ol</a>
+                    <a href="catalog.html" class="btn btn-secondary btn-lg">Kataloğa Göz At</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <div class="footer-brand">
+                        <div class="logo">
+                            <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect x="2" y="2" width="36" height="36" rx="3" stroke="white" stroke-width="2"/>
+                                <path d="M8 8 L32 8 L32 20 L8 20 Z" fill="#D4AF37" opacity="0.5"/>
+                                <circle cx="20" cy="14" r="4" fill="white"/>
+                                <text x="20" y="32" font-size="10" text-anchor="middle" fill="white" font-family="serif">1972</text>
+                            </svg>
+                            <span class="logo-text">Asfilateli</span>
+                        </div>
+                        <p class="footer-description">Türkiye'nin en güvenilir filateli platformu. Nadir koleksiyonlar, güvenli alışveriş, uzman desteği.</p>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Hızlı Erişim</h4>
+                    <ul class="footer-links">
+                        <li><a href="catalog.html">Katalog</a></li>
+                        <li><a href="auctions.html">Mezatlar</a></li>
+                        <li><a href="#">Hakkımızda</a></li>
+                        <li><a href="#">İletişim</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Müşteri Hizmetleri</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Sıkça Sorulan Sorular</a></li>
+                        <li><a href="#">İade ve İptal</a></li>
+                        <li><a href="#">Kargo Bilgileri</a></li>
+                        <li><a href="#">Ödeme Seçenekleri</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-col">
+                    <h4 class="footer-title">Yasal</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Gizlilik Politikası</a></li>
+                        <li><a href="#">KVKK</a></li>
+                        <li><a href="#">Kullanım Koşulları</a></li>
+                        <li><a href="#">Mesafeli Satış Sözleşmesi</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Asfilateli. Tüm hakları saklıdır.</p>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="2" y="2" width="20" height="20" rx="5" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="2"/><circle cx="18" cy="6" r="1" fill="currentColor"/></svg></a>
+                    <a href="#" aria-label="Facebook"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M18 2H15C12.2386 2 10 4.23858 10 7V10H7V14H10V22H14V14H17L18 10H14V7C14 6.44772 14.4477 6 15 6H18V2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                    <a href="#" aria-label="Twitter"><svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M23 3C22.0424 3.67548 20.9821 4.19211 19.86 4.53C19.2577 3.83751 18.4573 3.34669 17.567 3.12393C16.6767 2.90116 15.7395 2.9572 14.8821 3.28445C14.0247 3.6117 13.2884 4.19439 12.773 4.95372C12.2575 5.71305 11.9877 6.61232 12 7.53V8.53C10.2426 8.57557 8.50127 8.18581 6.93101 7.39545C5.36074 6.60508 4.01032 5.43864 3 4C3 4 -1 13 8 17C5.94053 18.398 3.48716 19.0989 1 19C10 24 21 19 21 7.5C20.9991 7.22145 20.9723 6.94359 20.92 6.67C21.9406 5.66349 22.6608 4.39271 23 3V3Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
